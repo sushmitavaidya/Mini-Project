@@ -10,3 +10,9 @@ Step 5: For pandas, py -m pip install pandas
 Step 6: For matplotlib, py -m pip install matplotlib
 
 
+Installing scikit-learn:
+
+Step 1: pip install -U scikit-learn
+Step 2: python -m pip show scikit-learn  # to see which version and where scikit-learn is installed
+Step 3: python -m pip freeze  # to see all packages installed in the active virtualenv
+Step 4: python -c "import sklearn; sklearn.show_versions()"
